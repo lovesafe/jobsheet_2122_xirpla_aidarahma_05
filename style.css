@@ -196,14 +196,14 @@ li a, .dropbtn {
     display: inline-block;
     width: 100%;
     height: auto;
-    margin-top: 8%;
-    margin-left: -75%;
+    margin-top: 1%;
+    margin-left: -160%;
     border-radius: 10px;
 }
 .overlay{
     position: absolute;
     bottom: 0;
-    margin-left: -75%;
+    margin-left: -160%;
     background-color: rgba(0, 0, 0, 0.75);
     overflow: hidden;
     border-radius: 10px;
@@ -212,7 +212,7 @@ li a, .dropbtn {
     transition: .5s ease;
 }
 .main_container:hover .overlay{
-    height: 95%;   
+    height: 100%;   
 }
 .judul{
     width: 100%;
@@ -235,6 +235,45 @@ li a, .dropbtn {
     letter-spacing: 4px;
     line-height: 1.5em;
 }
+.dewata{
+    display: inline-block;
+    margin-left: 40%;
+    margin-top: -30%;
+    background-color: rgba(223, 202, 136, 0.959);
+    width: 26%;
+    height: 18%;
+    align-items: center;
+    border-radius: 8px;
+    transition: 1s;
+}
+.dewata:hover{
+    transform:matrix3d(1.1);
+}
+.bali{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    box-shadow: white;
+    margin-bottom: 20%;
+}
+.video{
+    display: inline-block;
+    margin-left: 40%;
+    margin-top: 1%;
+    background-color: rgba(223, 202, 136, 0.959);
+    width: 26%;
+    height: 40%;
+    align-items: center;
+    border-radius: 8px;
+    transition: 1s;
+}
+.video:hover{
+    transform: scale(1.1);
+}
+.itemvideo{
+    margin-left: 5%;
+    margin-top: -1%;
+}
 
 /* dafftar section */
 #dafftar{
@@ -251,7 +290,7 @@ table, td, th {
     border-color: black;
     background: rgb(114, 102, 51);
     margin-right: 35%;
-    margin-top: 17%;
+    margin-top: 8%;
   }
   
   table {
@@ -267,13 +306,73 @@ table, td, th {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 2px;
   }
+.list{
+    margin-left: 60%;
+    margin-top: -20%;
+    width: 35%;
+    background-color: rgba(223, 202, 136, 0.959);
+    border-radius: 8px;
+}
+.list h2{
+    color: rgb(51, 114, 100);
+}
+.list ol li{
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
   
-/* portfolio section */
-#portfolio{
+/* form section */
+#form{
     display: flex;
     flex-direction: column;
     background:rgba(223, 202, 136, 0.959);
     height: 100vh;
     justify-content: center;
     align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 160%;
+    margin-left: -30%;
+    margin-top: 30%;
+    align-items: center;
+    background: rgb(51, 114, 100);
+    border-radius: 5px;
+}
+.form h2{
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 40px;
+}
+.box{
+    padding: 12px;
+    width: 65%;
+    margin: 15px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 20px;
+}
+#submit{
+    padding: 12px 30px;
+    width: 40%;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: rgba(223, 202, 136, 0.959);
+}
+.check{
+    margin-top: 0.8rem;
+}
+.check input{
+    vertical-align: middle;
+    cursor: pointer;
 }
